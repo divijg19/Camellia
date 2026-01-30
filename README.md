@@ -2,7 +2,8 @@
 
 > Concept
 - Front-end: Typescript + React (Vercel)
-- Back-end: Go + Python (AWS)
+- Back-end: Go (Server and orchestration) + Python (Intelligence and recommendation ML layer)
+- Cloud Deployment: GitHub Actions + AWS
 - Database: MongoDB (while in dev), PostgreSQL (when ready for prod and long-term scaling)
 
 
