@@ -6,4 +6,4 @@ Resources:
       ImageId: ami-0abcdef1234567890
       Tags:
         - Key: Name
-          Value: SkillShareApp
+          Value: Camellia
