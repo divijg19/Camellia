@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"camellia/backend/routes"
-	"camellia/backend/webui"
+	"github.com/divijg19/camellia/backend/routes"
+	"github.com/divijg19/camellia/backend/webui"
 )
 
 func main() {

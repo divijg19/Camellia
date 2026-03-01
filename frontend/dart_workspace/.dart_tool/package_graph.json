@@ -45,16 +45,6 @@
       "devDependencies": []
     },
     {
-      "name": "http",
-      "version": "1.6.0",
-      "dependencies": [
-        "async",
-        "http_parser",
-        "meta",
-        "web"
-      ]
-    },
-    {
       "name": "flutter",
       "version": "0.0.0",
       "dependencies": [
@@ -67,8 +57,169 @@
       ]
     },
     {
+      "name": "lints",
+      "version": "6.1.0",
+      "dependencies": []
+    },
+    {
+      "name": "meta",
+      "version": "1.17.0",
+      "dependencies": []
+    },
+    {
+      "name": "vector_math",
+      "version": "2.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "sky_engine",
+      "version": "0.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "material_color_utilities",
+      "version": "0.13.0",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "collection",
+      "version": "1.19.1",
+      "dependencies": []
+    },
+    {
+      "name": "characters",
+      "version": "1.4.1",
+      "dependencies": []
+    },
+    {
+      "name": "http",
+      "version": "1.6.0",
+      "dependencies": [
+        "async",
+        "http_parser",
+        "meta",
+        "web"
+      ]
+    },
+    {
+      "name": "jaspr_builder",
+      "version": "0.22.4",
+      "dependencies": [
+        "analyzer",
+        "build",
+        "collection",
+        "dart_style",
+        "glob",
+        "jaspr",
+        "path",
+        "source_gen",
+        "yaml"
+      ]
+    },
+    {
+      "name": "jaspr",
+      "version": "0.22.4",
+      "dependencies": [
+        "hotreloader",
+        "html",
+        "http",
+        "meta",
+        "path",
+        "shelf",
+        "shelf_gzip",
+        "shelf_proxy",
+        "shelf_static",
+        "universal_web"
+      ]
+    },
+    {
+      "name": "yaml",
+      "version": "3.1.3",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner"
+      ]
+    },
+    {
+      "name": "glob",
+      "version": "2.1.3",
+      "dependencies": [
+        "async",
+        "collection",
+        "file",
+        "path",
+        "string_scanner"
+      ]
+    },
+    {
+      "name": "shelf_gzip",
+      "version": "4.1.0",
+      "dependencies": [
+        "shelf"
+      ]
+    },
+    {
+      "name": "shelf_static",
+      "version": "1.1.3",
+      "dependencies": [
+        "convert",
+        "http_parser",
+        "mime",
+        "path",
+        "shelf"
+      ]
+    },
+    {
+      "name": "shelf_proxy",
+      "version": "1.0.4",
+      "dependencies": [
+        "http",
+        "path",
+        "shelf"
+      ]
+    },
+    {
+      "name": "hotreloader",
+      "version": "4.4.0",
+      "dependencies": [
+        "logging",
+        "path",
+        "stream_transform",
+        "vm_service",
+        "watcher"
+      ]
+    },
+    {
+      "name": "string_scanner",
+      "version": "1.4.1",
+      "dependencies": [
+        "source_span"
+      ]
+    },
+    {
+      "name": "file",
+      "version": "7.0.1",
+      "dependencies": [
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "path",
+      "version": "1.9.1",
+      "dependencies": []
+    },
+    {
+      "name": "stream_transform",
+      "version": "2.1.1",
+      "dependencies": []
+    },
+    {
       "name": "build_runner",
-      "version": "2.11.1",
+      "version": "2.13.1",
       "dependencies": [
         "analyzer",
         "args",
@@ -104,155 +255,18 @@
       ]
     },
     {
-      "name": "jaspr_builder",
-      "version": "0.22.3",
+      "name": "built_collection",
+      "version": "5.1.1",
+      "dependencies": []
+    },
+    {
+      "name": "build_config",
+      "version": "1.3.0",
       "dependencies": [
-        "analyzer",
-        "build",
-        "collection",
-        "dart_style",
-        "glob",
-        "jaspr",
+        "checked_yaml",
+        "json_annotation",
         "path",
-        "source_gen",
-        "yaml"
-      ]
-    },
-    {
-      "name": "lints",
-      "version": "6.1.0",
-      "dependencies": []
-    },
-    {
-      "name": "jaspr",
-      "version": "0.22.3",
-      "dependencies": [
-        "hotreloader",
-        "html",
-        "http",
-        "meta",
-        "path",
-        "shelf",
-        "shelf_gzip",
-        "shelf_proxy",
-        "shelf_static",
-        "universal_web"
-      ]
-    },
-    {
-      "name": "meta",
-      "version": "1.17.0",
-      "dependencies": []
-    },
-    {
-      "name": "web",
-      "version": "1.1.1",
-      "dependencies": []
-    },
-    {
-      "name": "http_parser",
-      "version": "4.1.2",
-      "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner",
-        "typed_data"
-      ]
-    },
-    {
-      "name": "async",
-      "version": "2.13.0",
-      "dependencies": [
-        "collection",
-        "meta"
-      ]
-    },
-    {
-      "name": "sky_engine",
-      "version": "0.0.0",
-      "dependencies": []
-    },
-    {
-      "name": "vector_math",
-      "version": "2.2.0",
-      "dependencies": []
-    },
-    {
-      "name": "material_color_utilities",
-      "version": "0.11.1",
-      "dependencies": [
-        "collection"
-      ]
-    },
-    {
-      "name": "collection",
-      "version": "1.19.1",
-      "dependencies": []
-    },
-    {
-      "name": "characters",
-      "version": "1.4.0",
-      "dependencies": []
-    },
-    {
-      "name": "yaml",
-      "version": "3.1.3",
-      "dependencies": [
-        "collection",
-        "source_span",
-        "string_scanner"
-      ]
-    },
-    {
-      "name": "web_socket_channel",
-      "version": "3.0.3",
-      "dependencies": [
-        "async",
-        "crypto",
-        "stream_channel",
-        "web",
-        "web_socket"
-      ]
-    },
-    {
-      "name": "watcher",
-      "version": "1.2.1",
-      "dependencies": [
-        "async",
-        "path"
-      ]
-    },
-    {
-      "name": "stream_transform",
-      "version": "2.1.1",
-      "dependencies": []
-    },
-    {
-      "name": "shelf_web_socket",
-      "version": "3.0.0",
-      "dependencies": [
-        "shelf",
-        "stream_channel",
-        "web_socket_channel"
-      ]
-    },
-    {
-      "name": "shelf",
-      "version": "1.4.2",
-      "dependencies": [
-        "async",
-        "collection",
-        "http_parser",
-        "path",
-        "stack_trace",
-        "stream_channel"
-      ]
-    },
-    {
-      "name": "pub_semver",
-      "version": "2.2.0",
-      "dependencies": [
-        "collection"
+        "pubspec_parse"
       ]
     },
     {
@@ -264,32 +278,88 @@
       ]
     },
     {
-      "name": "path",
-      "version": "1.9.1",
+      "name": "args",
+      "version": "2.7.0",
       "dependencies": []
+    },
+    {
+      "name": "json_annotation",
+      "version": "4.11.0",
+      "dependencies": [
+        "meta"
+      ]
+    },
+    {
+      "name": "graphs",
+      "version": "2.3.2",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "web",
+      "version": "1.1.1",
+      "dependencies": []
+    },
+    {
+      "name": "analyzer",
+      "version": "10.0.1",
+      "dependencies": [
+        "_fe_analyzer_shared",
+        "collection",
+        "convert",
+        "crypto",
+        "glob",
+        "meta",
+        "package_config",
+        "path",
+        "pub_semver",
+        "source_span",
+        "watcher",
+        "yaml"
+      ]
+    },
+    {
+      "name": "_fe_analyzer_shared",
+      "version": "93.0.0",
+      "dependencies": [
+        "meta",
+        "source_span"
+      ]
+    },
+    {
+      "name": "source_span",
+      "version": "1.10.2",
+      "dependencies": [
+        "collection",
+        "path",
+        "term_glyph"
+      ]
+    },
+    {
+      "name": "pub_semver",
+      "version": "2.2.0",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "term_glyph",
+      "version": "1.2.2",
+      "dependencies": []
+    },
+    {
+      "name": "universal_web",
+      "version": "1.1.1+1",
+      "dependencies": [
+        "web"
+      ]
     },
     {
       "name": "package_config",
       "version": "2.2.0",
       "dependencies": [
         "path"
-      ]
-    },
-    {
-      "name": "mime",
-      "version": "2.0.0",
-      "dependencies": []
-    },
-    {
-      "name": "logging",
-      "version": "1.3.0",
-      "dependencies": []
-    },
-    {
-      "name": "json_annotation",
-      "version": "4.10.0",
-      "dependencies": [
-        "meta"
       ]
     },
     {
@@ -309,42 +379,48 @@
       ]
     },
     {
-      "name": "graphs",
-      "version": "2.3.2",
+      "name": "checked_yaml",
+      "version": "2.0.4",
       "dependencies": [
-        "collection"
-      ]
-    },
-    {
-      "name": "glob",
-      "version": "2.1.3",
-      "dependencies": [
-        "async",
-        "collection",
-        "file",
-        "path",
-        "string_scanner"
-      ]
-    },
-    {
-      "name": "dart_style",
-      "version": "3.1.3",
-      "dependencies": [
-        "analyzer",
-        "args",
-        "collection",
-        "package_config",
-        "path",
-        "pub_semver",
+        "json_annotation",
         "source_span",
         "yaml"
       ]
     },
     {
-      "name": "crypto",
-      "version": "3.0.7",
+      "name": "stack_trace",
+      "version": "1.12.1",
       "dependencies": [
+        "path"
+      ]
+    },
+    {
+      "name": "http_parser",
+      "version": "4.1.2",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner",
         "typed_data"
+      ]
+    },
+    {
+      "name": "typed_data",
+      "version": "1.4.0",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "build",
+      "version": "4.0.5",
+      "dependencies": [
+        "analyzer",
+        "crypto",
+        "glob",
+        "logging",
+        "package_config",
+        "path"
       ]
     },
     {
@@ -355,29 +431,35 @@
       ]
     },
     {
-      "name": "code_builder",
-      "version": "4.11.1",
+      "name": "shelf",
+      "version": "1.4.2",
       "dependencies": [
-        "built_collection",
-        "built_value",
+        "async",
         "collection",
-        "matcher",
-        "meta"
+        "http_parser",
+        "path",
+        "stack_trace",
+        "stream_channel"
       ]
     },
     {
-      "name": "built_value",
-      "version": "8.12.3",
+      "name": "stream_channel",
+      "version": "2.1.4",
       "dependencies": [
-        "built_collection",
-        "collection",
-        "fixnum",
-        "meta"
+        "async"
       ]
     },
     {
-      "name": "built_collection",
-      "version": "5.1.1",
+      "name": "watcher",
+      "version": "1.2.1",
+      "dependencies": [
+        "async",
+        "path"
+      ]
+    },
+    {
+      "name": "logging",
+      "version": "1.3.0",
       "dependencies": []
     },
     {
@@ -399,53 +481,44 @@
       ]
     },
     {
-      "name": "build_config",
-      "version": "1.2.0",
+      "name": "crypto",
+      "version": "3.0.7",
       "dependencies": [
-        "checked_yaml",
-        "json_annotation",
-        "path",
-        "pubspec_parse"
+        "typed_data"
       ]
     },
     {
-      "name": "build",
-      "version": "4.0.4",
+      "name": "html",
+      "version": "0.15.6",
       "dependencies": [
-        "analyzer",
-        "crypto",
-        "glob",
-        "logging",
-        "package_config",
-        "path"
+        "csslib",
+        "source_span"
       ]
     },
     {
-      "name": "args",
-      "version": "2.7.0",
+      "name": "csslib",
+      "version": "1.0.2",
+      "dependencies": [
+        "source_span"
+      ]
+    },
+    {
+      "name": "mime",
+      "version": "2.0.0",
       "dependencies": []
     },
     {
-      "name": "analyzer",
-      "version": "9.0.0",
+      "name": "shelf_web_socket",
+      "version": "3.0.0",
       "dependencies": [
-        "_fe_analyzer_shared",
-        "collection",
-        "convert",
-        "crypto",
-        "glob",
-        "meta",
-        "package_config",
-        "path",
-        "pub_semver",
-        "source_span",
-        "watcher",
-        "yaml"
+        "shelf",
+        "stream_channel",
+        "web_socket_channel"
       ]
     },
     {
       "name": "source_gen",
-      "version": "4.2.0",
+      "version": "4.2.2",
       "dependencies": [
         "analyzer",
         "async",
@@ -459,126 +532,26 @@
       ]
     },
     {
-      "name": "universal_web",
-      "version": "1.1.1+1",
-      "dependencies": [
-        "web"
-      ]
-    },
-    {
-      "name": "shelf_static",
-      "version": "1.1.3",
-      "dependencies": [
-        "convert",
-        "http_parser",
-        "mime",
-        "path",
-        "shelf"
-      ]
-    },
-    {
-      "name": "shelf_proxy",
-      "version": "1.0.4",
-      "dependencies": [
-        "http",
-        "path",
-        "shelf"
-      ]
-    },
-    {
-      "name": "shelf_gzip",
-      "version": "4.1.0",
-      "dependencies": [
-        "shelf"
-      ]
-    },
-    {
-      "name": "html",
-      "version": "0.15.6",
-      "dependencies": [
-        "csslib",
-        "source_span"
-      ]
-    },
-    {
-      "name": "hotreloader",
-      "version": "4.3.0",
+      "name": "async",
+      "version": "2.13.1",
       "dependencies": [
         "collection",
-        "logging",
-        "path",
-        "stream_transform",
-        "vm_service",
-        "watcher"
+        "meta"
       ]
     },
     {
-      "name": "typed_data",
-      "version": "1.4.0",
+      "name": "dart_style",
+      "version": "3.1.7",
       "dependencies": [
-        "collection"
-      ]
-    },
-    {
-      "name": "string_scanner",
-      "version": "1.4.1",
-      "dependencies": [
-        "source_span"
-      ]
-    },
-    {
-      "name": "source_span",
-      "version": "1.10.2",
-      "dependencies": [
+        "analyzer",
+        "args",
         "collection",
+        "package_config",
         "path",
-        "term_glyph"
+        "pub_semver",
+        "source_span",
+        "yaml"
       ]
-    },
-    {
-      "name": "web_socket",
-      "version": "1.0.1",
-      "dependencies": [
-        "web"
-      ]
-    },
-    {
-      "name": "stream_channel",
-      "version": "2.1.4",
-      "dependencies": [
-        "async"
-      ]
-    },
-    {
-      "name": "stack_trace",
-      "version": "1.12.1",
-      "dependencies": [
-        "path"
-      ]
-    },
-    {
-      "name": "file",
-      "version": "7.0.1",
-      "dependencies": [
-        "meta",
-        "path"
-      ]
-    },
-    {
-      "name": "matcher",
-      "version": "0.12.18",
-      "dependencies": [
-        "async",
-        "meta",
-        "stack_trace",
-        "term_glyph",
-        "test_api"
-      ]
-    },
-    {
-      "name": "fixnum",
-      "version": "1.1.1",
-      "dependencies": []
     },
     {
       "name": "pubspec_parse",
@@ -592,41 +565,63 @@
       ]
     },
     {
-      "name": "checked_yaml",
-      "version": "2.0.4",
+      "name": "web_socket_channel",
+      "version": "3.0.3",
       "dependencies": [
-        "json_annotation",
-        "source_span",
-        "yaml"
+        "async",
+        "crypto",
+        "stream_channel",
+        "web",
+        "web_socket"
       ]
     },
     {
-      "name": "_fe_analyzer_shared",
-      "version": "92.0.0",
+      "name": "web_socket",
+      "version": "1.0.1",
       "dependencies": [
+        "web"
+      ]
+    },
+    {
+      "name": "built_value",
+      "version": "8.12.5",
+      "dependencies": [
+        "built_collection",
+        "collection",
+        "fixnum",
         "meta"
       ]
     },
     {
-      "name": "csslib",
-      "version": "1.0.2",
+      "name": "fixnum",
+      "version": "1.1.1",
+      "dependencies": []
+    },
+    {
+      "name": "code_builder",
+      "version": "4.11.1",
       "dependencies": [
-        "source_span"
+        "built_collection",
+        "built_value",
+        "collection",
+        "matcher",
+        "meta"
       ]
     },
     {
-      "name": "vm_service",
-      "version": "15.0.2",
-      "dependencies": []
-    },
-    {
-      "name": "term_glyph",
-      "version": "1.2.2",
-      "dependencies": []
+      "name": "matcher",
+      "version": "0.12.19",
+      "dependencies": [
+        "async",
+        "meta",
+        "stack_trace",
+        "term_glyph",
+        "test_api"
+      ]
     },
     {
       "name": "test_api",
-      "version": "0.7.9",
+      "version": "0.7.11",
       "dependencies": [
         "async",
         "boolean_selector",
@@ -646,6 +641,11 @@
         "source_span",
         "string_scanner"
       ]
+    },
+    {
+      "name": "vm_service",
+      "version": "15.1.0",
+      "dependencies": []
     }
   ],
   "configVersion": 1
