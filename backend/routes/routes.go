@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"camellia/backend/controllers"
+	"github.com/divijg19/camellia/backend/controllers"
 )
 
 func RegisterRoutes(mux *http.ServeMux) {
