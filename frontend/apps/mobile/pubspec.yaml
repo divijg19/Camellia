@@ -1,0 +1,22 @@
+name: flutter_app
+description: Flutter shell app that reuses shared_core.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.10.8
+  flutter: ">=3.35.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  shared_core:
+    path: ../../packages/shared_core
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
