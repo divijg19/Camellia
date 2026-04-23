@@ -1,0 +1,31 @@
+.venv
+**/.dart_tool/
+**/.packages
+**/build/
+pubspec.lock
+
+# Flutter / Dart extras
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Android & iOS build artifacts
+**/android/.gradle
+**/android/app/build/
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+**/ios/Flutter/Flutter.framework
+**/macos/Flutter/Flutter.framework
+
+# Python / Lambda
+__pycache__/
+*.py[cod]
+pip-wheel-metadata/
+dist/
+build/
+lambda/.venv/
+lambda/env/

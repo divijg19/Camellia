@@ -1,0 +1,4 @@
+[environment]
+root = ["./lambda"]
+python = "./lambda/.venv"
+python-version = "3.12"

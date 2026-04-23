@@ -1,0 +1,28 @@
+name: jaspr_web
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  jaspr: ^0.23.0
+  shared_core:
+    path: ../../packages/shared_core
+
+dev_dependencies:
+  lints: ^6.1.0
+  build_runner: ^2.11.1
+  build_web_compilers: ^4.4.17
+  jaspr_cli: ^0.23.0+3
+  jaspr_builder: ^0.23.0
+
+jaspr:
+  mode: client
+
+targets:
+  $default:
+    builders:
+      build_web_compilers|entrypoint:
+        generate_for:
+          - web/index.html

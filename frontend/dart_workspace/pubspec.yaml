@@ -1,9 +1,0 @@
-name: camellia_frontend_workspace
-publish_to: none
-environment:
-  sdk: ^3.10.8
-
-workspace:
-  - packages/shared_core
-  - apps/jaspr_web
-  - apps/flutter_app
