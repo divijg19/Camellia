@@ -6,4 +6,4 @@ environment:
 workspace:
   - packages/shared_core
   - apps/web
-  - apps/mobile
+  - apps/flutter
