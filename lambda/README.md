@@ -3,14 +3,14 @@ Local lambda helper: how to install deps and test
 1. Create a virtual environment and activate it:
 
 ```bash
-python3 -m venv .venv
+uv venv
 source .venv/bin/activate
 ```
 
 2. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+uv sync --upgrade --all-extras
 ```
 
 3. Run a quick import test:

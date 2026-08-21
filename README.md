@@ -11,4 +11,4 @@
 - Core Functionality: This API call will be handled by your GoLang backend. Go will process the request, interact with the MongoDB database to save the booking information, and handle any real-time notifications to the involved users.
 - Specialized Tasks: If the platform wants to recommend new skills to the user after the booking, the GoLang backend could send a message to a Python service. This Python service would then use its machine learning libraries to generate recommendations and store them in the database for the user to see later.
 
-- Monetized Tiers? Basic, Blue, Violet, Black
+- Monetized Tiers? Community, Indigo, Violet, Black
