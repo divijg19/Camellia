@@ -8,5 +8,5 @@ environment:
   sdk: ^3.10.8
 
 dependencies:
-  http: ^1.5.0
-  meta: ^1.17.0
+  http: ^1.6.0
+  meta: ^1.19.0

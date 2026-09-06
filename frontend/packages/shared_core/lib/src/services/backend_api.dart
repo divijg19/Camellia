@@ -9,7 +9,7 @@ class BackendApi {
   final http.Client _client;
 
   BackendApi({required this.baseUrl, http.Client? client})
-      : _client = client ?? http.Client();
+    : _client = client ?? http.Client();
 
   Future<List<ClassItem>> fetchClasses() async {
     final uri = Uri.parse('$baseUrl/api/classes');
